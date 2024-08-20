@@ -61,7 +61,7 @@
   </tbody>
 </table>
 
-📄 Existem um requisito básico para a criptografia dos textos:
+📄 Existe um requisito básico para a criptografia dos textos:
 
 <p align="center"><strong>Não devem ser utilizadas letras com acentos, nem caracteres especiais.</strong></p>
 
