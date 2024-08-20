@@ -13,7 +13,7 @@
 * [Status do Projeto](#status-do-projeto)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
 * [Pessoa Desenvolvedora do Projeto](#pessoa-desenvolvedora-do-projeto)
 
 # DESCRIÇÃO DO PROJETO
