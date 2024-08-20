@@ -87,6 +87,8 @@ https://github.com/user-attachments/assets/3ad4f161-d130-4749-803a-addf60a787cb
 
 # ACESSO AO PROJETO
 
+  <h3 align="center"><a href="https://encoder-alura.vercel.app/"><strong>TESTE AGORA O 'ENCONDER | ALURA', CLICANDO AQUI!</strong></a></h3>
+
 # TECNOLOGIAS UTILIZADAS
 
 <p align="center">
