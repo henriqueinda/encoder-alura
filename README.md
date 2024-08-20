@@ -9,7 +9,6 @@
 
 # ÍNDICE
 
-* [Título e Imagem de capa](<h1>)
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-projeto)
