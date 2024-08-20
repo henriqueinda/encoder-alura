@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encoder | ALURA</title>
+    <link rel="stylesheet" href="./styles/style.css"> <!--ESTILO DA PÁGINA-->
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <h1>Encoder | ALURA</h1>
+
+    </header>
+
+    <main class="conteudo">
+
+        <section class="conteudo__texto-cripto">
+
+            <div class="conteudo__texto-cripto__area-de-escrita">
+                <textarea
+                wrap="hard"
+                rows="8" 
+                maxlength="320"
+                autocomplete="off"
+                placeholder="Digite seu texto"
+                class="texto-cripto"
+                id="texto-cripto"
+                name="texto-cripto"></textarea>
+            </div>
+
+            <div class="conteudo__texto-cripto__regras">
+                <img class="imagem-alerta" src="./assets/bi_exclamation-circle-fill.png" alt="!">
+                <label class="conteudo__texto-cripto__regras__texto">Apenas letras sem acento.</label>
+            </div>
+
+            <div class="conteudo__texto-cripto__botoes">
+                <button onclick="criptografar()" class="conteudo__texto-cripto__botao-cripto" id="botao-cripto">Criptografar</button>
+                <button onclick="descriptografar()" class="conteudo__texto-cripto__botao-decripto" id="botao-decripto" disabled>Decriptografar</button>
+            </div>
+
+        </section>
+
+        <section class="conteudo__container-texto-decripto">
+
+            <img class="imagem-procurando" id="imagem-procurando" src="./assets/detetive-procurando.png" alt="Imagem não encontrada!">
+            <p class="conteudo__container-texto-decripto__texto-1"><strong>Nenhuma mensagem encontrada</strong></p>
+            <p class="conteudo__container-texto-decripto__texto-2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <!-- <p class="conteudo__container-texto-decripto__texto-3">Local do texto criptografado</p> -->
+            <textarea
+            wrap="soft"
+            rows="8"
+            cols="40"
+            maxlength="320"
+            autocomplete="off" 
+            class="conteudo__container-texto-decripto__texto-3" 
+            type="text" 
+            name="container-texto" 
+            id="container-texto" 
+            value="" 
+            readonly></textarea>
+            <button class="conteudo__container-texto-decripto__botao" id="botao-copiar">Copiar</button>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+        <p class="rodape__texto">Desenvolvido por</p>
+        <a class="rodape__link-dev" href="https://www.instagram.com/henriqueinda/">@henriqueinda</a>
+
+    </footer>
+
+    <script src="./app.js" defer></script>
+</body>
+</html>

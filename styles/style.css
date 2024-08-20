@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor-fundo: #D6EFD8;
+    --cor-container: #F5F7F8;
+    --cor-sombra: #3a3939;
+    --cor-botao: #1A5319;
+    --cor-botao-desabilitado: #D8DFE8;
+    --cor-botao-hover: #80AF81;
+
+    --fonte-Inter: "Inter", sans-serif;
+    --fonte-Archivo: "Archivo Black", sans-serif;
+    --fonte-Dancing: "Dancing Script", cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+}
+
+.cabecalho{
+    font-family: var(--fonte-Archivo);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+    color: var(--cor-botao);
+}
+
+.conteudo{
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fonte-Inter);
+}
+
+.conteudo__texto-cripto{
+    padding: 5% 5% 5% 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+textarea{
+    resize: none;
+    border: none;
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-Inter);
+    font-weight: 400;
+    font-size: 2em;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+textarea:focus{
+    box-shadow: 0 0 0 0;
+    border: none;
+    outline: none;
+}
+
+.conteudo__texto-cripto__regras{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.conteudo__texto-cripto__regras__texto{
+    font-weight: 300;
+    font-size: 0.7em;
+}
+
+.conteudo__texto-cripto__botoes{
+    display: flex;
+    gap: 24px;
+    padding: 2% 0% 0% 0%;
+}
+
+.conteudo__texto-cripto__botao-cripto, .conteudo__texto-cripto__botao-decripto{
+    font-family: var(--fonte-Inter);
+    font-weight: 400;
+    font-size: 1em;
+    width: 328px;
+    height: auto;
+    padding: 2.5% 0% 2.5% 0%;
+    background-color: var(--cor-botao);
+    color: white;
+    border: 2px solid var(--cor-botao);
+    border-radius: 24px;
+}
+
+.conteudo__texto-cripto__botao-cripto:hover, .conteudo__texto-cripto__botao-decripto:hover, .conteudo__container-texto-decripto__botao:hover{
+    background-color: var(--cor-botao-hover);
+    border: 2px solid var(--cor-botao-hover);
+    cursor: pointer;
+}
+
+.conteudo__texto-cripto__botao-cripto:disabled, .conteudo__texto-cripto__botao-decripto:disabled{
+    background-color: var(--cor-botao-desabilitado);
+    border: 2px solid var(--cor-botao);
+    color: var(--cor-botao);
+    cursor: default;
+}
+
+.conteudo__container-texto-decripto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 2% 0% 2%;
+    gap: 20px;
+    width: 20%;
+    height: 575px;
+    border-radius: 32px;
+    text-align: center;
+    background-color: var(--cor-container);
+    box-shadow: 1px 1px 1px var(--cor-sombra);
+}
+
+.conteudo__container-texto-decripto:hover{
+    border: 2px solid var(--cor-botao-hover);
+    cursor: grab;
+}
+
+.imagem-procurando{
+    display: "";
+}
+
+.conteudo__container-texto-decripto__texto-1{
+    display: "";
+    padding: 20% 0% 2% 0%;
+    font-size: 1em;
+}
+
+.conteudo__container-texto-decripto__texto-2{
+    display: "";
+    font-size: 0.8em;
+}
+
+.conteudo__container-texto-decripto__texto-3{
+    display: "";
+    font-size: 1.2em;
+    text-align: left;
+    height: 80%;
+    border: none;
+    background-color: var(--cor-container);
+}
+
+.conteudo__container-texto-decripto__botao{
+    display: "";
+    font-family: var(--fonte-Inter);
+    font-weight: 400;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    padding: 4% 0% 4% 0%;
+    background-color: var(--cor-botao-desabilitado);
+    color: var(--cor-botao);
+    border: 1px solid var(--cor-botao);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.rodape{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 5px;
+}
+
+.rodape__texto{
+    font-family: var(--fonte-Inter);
+    font-size: 0.8em;
+}
+
+.rodape__link-dev{
+    text-decoration: none;
+    font-family: var(--fonte-Dancing);
+    font-size: 1.5em;
+    color: black;
+}
+
+.rodape__link-dev:hover{
+    color: var(--cor-botao-hover);
+}
+
+@media (max-width: 1200px){ /* TABLET */
+    
+    body{
+        padding: 2%;
+    }
+
+    .conteudo{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .conteudo__texto-cripto{
+        padding: 2%;
+    }
+
+    .imagem-procurando{
+        display: none;
+    }
+
+    .conteudo__container-texto-decripto{
+        height: auto;
+        width: auto;
+        gap: 10px;
+    }
+
+    .conteudo__container-texto-decripto__texto-1{
+        padding: 5% 0% 2% 0%;
+    }
+
+    .conteudo__container-texto-decripto__texto-2{
+        padding: 2% 0% 5% 0%;
+    }
+
+}
+
+@media (max-width: 500px){ /* CELULAR */
+
+    .conteudo__texto-cripto__botoes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo__texto-cripto__botao-cripto, .conteudo__texto-cripto__botao-decripto{
+        width: auto;
+    }
+
+}
