@@ -102,7 +102,7 @@ https://github.com/user-attachments/assets/3ad4f161-d130-4749-803a-addf60a787cb
   <table align="center">
     <tbody>
       <tr>
-        <td colspan="2">Henrique Luiz Indalencio</td>
+        <td colspan="2">🧔 Henrique Luiz Indalencio</td>
       </tr>
       <tr>
         <td>Instagram</td>
