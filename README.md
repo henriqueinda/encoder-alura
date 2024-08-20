@@ -81,6 +81,9 @@
 
 # FUNCIONALIDADES E DEMONSTRAÇÃO DA APLICAÇÃO
 
+https://github.com/user-attachments/assets/0010cdb3-5287-4141-9542-a598ad237a67
+
+https://github.com/user-attachments/assets/3ad4f161-d130-4749-803a-addf60a787cb
 
 # ACESSO AO PROJETO
 
